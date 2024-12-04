@@ -45,8 +45,8 @@ Borrow out = A'Bin + A'B + BBin
 Write the detailed procedure here
 
 **Program:**
-full adder
 ```
+full adder:
 module ex4(sum,count,a,b,cin);
 output sum;
 output count;
@@ -61,8 +61,8 @@ assign sum=w1^cin;
 assign count=w2|w3;
 endmodule
 
-full subractor
 ```
+full subractor:
 module digital4(a,b,bin,diff,bout);
 input a, b, bin;
 output diff, bout;
