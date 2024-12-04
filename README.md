@@ -45,8 +45,9 @@ Borrow out = A'Bin + A'B + BBin
 Write the detailed procedure here
 
 **Program:**
-```
+
 full adder:
+```
 module ex4(sum,count,a,b,cin);
 output sum;
 output count;
@@ -63,6 +64,7 @@ endmodule
 
 ```
 full subractor:
+```
 module digital4(a,b,bin,diff,bout);
 input a, b, bin;
 output diff, bout;
@@ -70,18 +72,35 @@ assign diff = a ^ b ^ bin;
 assign bout = (~a & b) | (~a & bin) | (b & bin);
 endmodule
 ```
-/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
+
+/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
+Developed by:
+RegisterNumber:
 */
 
+
 **RTL Schematic**
-![Screenshot 2024-12-04 211723](https://github.com/user-attachments/assets/62297963-083c-44fe-83bf-f3c832b12c44)
-![Screenshot 2024-12-04 221118](https://github.com/user-attachments/assets/442f4a9e-39c7-425c-bd76-9d2c6aeed51e)
+
+
+
+
+![Screenshot 2024-12-04 211723](https://github.com/user-attachments/assets/84c320b2-2591-4ddc-afe5-78a749035a7d).
+
+
+
+
+![Screenshot 2024-12-04 221118](https://github.com/user-attachments/assets/976d6f25-1a72-4b9e-ac9b-c0155404b714)
+
 
 
 
 **Output Timing Waveform**
-![image](https://github.com/user-attachments/assets/956db3d3-8079-4067-8927-e317e1abbfeb)
-![image](https://github.com/user-attachments/assets/07b6772f-b7f8-457c-a9e1-c4e6e5010016)
+![image](https://github.com/user-attachments/assets/e6581ddd-68f5-4844-a6c8-e393b70f797f)
+
+
+
+![image](https://github.com/user-attachments/assets/32b79a61-b108-44d3-aa6a-9c47d40bc31f)
+
 
 
 **Result:**
